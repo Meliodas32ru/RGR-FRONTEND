@@ -1,0 +1,58 @@
+body{
+    /* правила установки шрифта для всей страницы */
+    font-family: 'OpenSans', sans-serif;
+    background-color: rgb(3, 121, 121);
+}
+
+footer{
+    background-color: rgb(32, 39, 35);
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+footer p{
+    color: white;
+}
+.picture>.picture-item1 {
+    /* picture-item1 - стиль для базового элемента - картинки */
+    width : 500px;
+    height : 500px;
+}
+.picture>.picture-item2 {
+    /* picture-item2 - стиль для округления картинки */
+    border-radius: 50px;
+}
+.picture>.picture-item3 {
+    /* picture-item3 - стиль для двойной рамки */
+    margin: 25px auto 0;
+    border: 5px solid #e52323;
+    background: white;
+    padding: 15px;
+}
+
+.picture>.picture-item4 {
+    /* picture-item4 - стиль для рамки */
+    margin: 50px auto 0;
+    border: 5px solid #E06B2A;
+
+}
+.picture>.picture-item5 {
+    /* picture-item5 - стиль для овальной двухцветной рамки */
+    margin: 50px auto 0;
+    padding: 5px;
+    background: linear-gradient(#2BBE94 50%, #0D464F 50%);
+    border-radius: 50%;
+}
+.picture>.picture-item6 {
+    /* picture-item6 - стиль для градиентной рамки */
+    border: 15px solid;
+    border-image: linear-gradient(135deg, #dfdfdf 38%, #0f0b07 65%);
+    border-image-slice: 1;
+}
+
+@media screen and (max-width:1000px) {
+    .picture{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
